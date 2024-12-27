@@ -95,3 +95,4 @@ while ((guess != MaxNum) && (guess != "quit")) {
 if (guess == "MaxNum") {
     console.log("You are won the game congrats ! ", guess);
 }
+
