@@ -24,4 +24,6 @@ btn.addEventListener('click', function () {
     ul.appendChild(item);
     inp.value = '';
 });
+
+// sfdsadf
  
