@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    text-decoration: none;
+}
+h1:hover{
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+a:visited{
+    
+}
