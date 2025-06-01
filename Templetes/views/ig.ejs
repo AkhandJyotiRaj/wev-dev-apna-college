@@ -1,0 +1,28 @@
+<!-- <%- include("include/head.ejs") %> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <h1>This is insta id : @<%= data.name %> </h1>
+    <div><button>follow</button></div>
+    <button>don't follow</button>
+    <p>Followers : <%= data.followers %></p>
+    <p>Followers : <%= data.following %></p>
+    <p>likes : <%=  data.posts[0].likes %></p>
+    <hr/>
+
+   <% for(let post of data.posts ){ %>
+    <img src="<%=post.image%>" alt="some img">
+    <hr/>
+    <p>likes: <%= post.likes %></p>
+    <p>comments: <%= post.comments %></p>
+   <% } %>
+</body>
+</html>

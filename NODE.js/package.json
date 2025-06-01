@@ -1,7 +1,6 @@
 {
-  "name": "node",
+  "name": "expressdir",
   "version": "1.0.0",
-  "description": "",
   "main": "math.js",
   "dependencies": {
     "figlet": "^1.8.1"
@@ -12,5 +11,6 @@
   },
   "author": "chautiya madharchood",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "description": ""
 }
